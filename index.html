@@ -79,19 +79,7 @@
 
           </li>
 
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="Phone: +918929757107" class="contact-link">+91 8929757107</a>
-            </div>
-
-          </li>
+          
 
           <li class="contact-item">
 
@@ -154,7 +142,7 @@
     <div class="main-content">
 
       <!--
-        - #NAVBAR
+        - #NAVBAR - Now with smooth scroll links
       -->
 
       <nav class="navbar">
@@ -162,40 +150,36 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <a href="#about" class="navbar-link">About</a>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <a href="#resume" class="navbar-link">Resume</a>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <a href="#portfolio" class="navbar-link">Projects</a>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <a href="#contact" class="navbar-link">Contact</a>
           </li>
 
         </ul>
 
       </nav>
 
-
-
-
-
       <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+      <section id="about" class="about">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
         </header>
 
-        <section class="about-text">
+        <div class="about-text">
           <p>
             I am proficient in analyzing large datasets and deriving actionable insights using SQL, Excel, Power BI, and Python, with a strong understanding of data integrity, governance, and impact-driven decision-making. I have experience developing and deploying machine learning and NLP-based solutions using TensorFlow, Scikit-learn, Pandas, and Flask, which have improved model efficiency and user accessibility.
             With a solid foundation in C++, object-oriented programming, and data structures, I have hands-on experience in software development and am familiar with Agile practices and version control using Git. 
@@ -204,14 +188,13 @@
           <p>
             I also have a working knowledge of web development, including HTML, CSS, and JavaScript, and I am currently learning React to build dynamic and responsive user interfaces. I am passionate about bridging AI, data science, and engineering to create real-world impact, and I am actively exploring emerging tools like Langchain and Power Query for intelligent automation.
           </p>
-        </section>
-
+        </div>
 
         <!--
           - service
         -->
 
-        <section class="service">
+        <div class="service">
 
           <h3 class="h3 service-title">What i'm doing</h3>
 
@@ -220,8 +203,7 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -266,24 +248,23 @@
 
             </li>
 
-
           </ul>
 
-        </section>
+        </div>
 
-      </article>
+      </section>
 
       <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+      <section id="resume" class="resume">
 
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
-        <section class="timeline">
+        <div class="timeline">
 
           <div class="title-wrapper">
             <div class="icon-box">
@@ -333,9 +314,9 @@
 
           </ol>
 
-        </section>
+        </div>
 
-        <section class="timeline">
+        <div class="timeline">
 
           <div class="title-wrapper">
             <div class="icon-box">
@@ -362,9 +343,9 @@
 
           </ol>
 
-        </section>
+        </div>
 
-        <section class="skill">
+        <div class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
 
@@ -437,22 +418,22 @@
 
           </ul>
 
-        </section>
+        </div>
 
-      </article>
+      </section>
 
 
       <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <section id="portfolio" class="portfolio">
 
         <header>
           <h2 class="h2 article-title">Projects</h2>
         </header>
 
-        <section class="projects">
+        <div class="projects">
 
           <ul class="filter-list">
 
@@ -511,7 +492,7 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="machine learning">
-              <a href="#">
+              <a href=https://github.com/Nipunbhardwaj0001/Spam-Message-Detection.git target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -529,7 +510,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="data analytics & visualization">
-              <a href="#">
+              <a href=https://github.com/Nipunbhardwaj0001/OlaDashBoard.git target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -547,7 +528,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href=https://github.com/Nipunbhardwaj0001/Text_Summarizer.git target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -566,57 +547,55 @@
 
           </ul>
 
-        </section>
+        </div>
 
-      </article>
+      </section>
 
       <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+      <section id="contact" class="contact">
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+  <div class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3501.4413790650538!2d77.4433056!3d28.646499999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM4JzQ3LjQiTiA3N8KwMjYnMzUuOSJF!5e0!3m2!1sen!2sin!4v1753441686702!5m2!1sen!2sin" 
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </figure>
-        </section>
+    <!-- Replace YOUR_FORM_ID with actual ID from Formspree -->
+    <form action="https://formspree.io/f/mnnzlzpg" method="POST" class="form" data-form>
 
-        <section class="contact-form">
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
 
-          <h3 class="h3 form-title">Contact Form</h3>
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-          <form action="#" class="form" data-form>
+      <button class="form-btn" type="submit" data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+    </form>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+    <!-- Success message (hidden by default) -->
+    <div id="success-message" style="display: none; margin-top: 20px; padding: 15px; background-color: #4CAF50; color: white; border-radius: 5px;">
+      <p>Message sent successfully! I'll get back to you soon.</p>
+    </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+    <!-- Error message (hidden by default) -->
+    <div id="error-message" style="display: none; margin-top: 20px; padding: 15px; background-color: #f44336; color: white; border-radius: 5px;">
+      <p>Something went wrong. Please try again or email me directly.</p>
+    </div>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
+  </div>
+</section>
 
     </div>
 
   </main>
-
-
 
   <!--
     - custom js link

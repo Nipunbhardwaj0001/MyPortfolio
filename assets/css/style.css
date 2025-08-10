@@ -1675,7 +1675,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .navbar {
-    position: absolute;
+    position: fixed;
     bottom: auto;
     top: 0;
     left: auto;
@@ -1855,4 +1855,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+[data-nav-link].active {
+  color: #ff6600; /* highlight color */
+  font-weight: bold;
 }
