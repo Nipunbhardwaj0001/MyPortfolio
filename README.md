@@ -70,7 +70,6 @@ This project is a personal portfolio website designed to showcase an individual'
 │   └── js/
 │       └── script.js
 ├── index.html
-└── index.txt
 ```
 
 📸 **Screenshots**
