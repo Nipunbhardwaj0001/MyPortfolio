@@ -74,7 +74,8 @@ This project is a personal portfolio website designed to showcase an individual'
 
 📸 **Screenshots**
 
-*(Space reserved for screenshots of the website)*
+<img width="1919" height="918" alt="image" src="https://github.com/user-attachments/assets/c1953382-7967-45a1-be87-0a809aadab68" />
+
 
 🤝 **Contributing**
 
