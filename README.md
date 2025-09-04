@@ -2,6 +2,8 @@
 
 This project is a personal portfolio website designed to showcase an individual's skills, experience, and projects. It provides a clean and professional online presence, allowing potential clients or employers to easily learn about the individual and their work. The website features an "About Me" section, a resume display, a portfolio of projects, a blog (potentially linked externally), and a contact form. It's built with HTML, CSS, and JavaScript, and is designed to be responsive and accessible. It solves the problem of creating a professional online presence without needing extensive coding knowledge, by providing a well-structured and easily customizable template.
 
+Visit - https://myportfolio-lilac-mu.vercel.app/
+
 🚀 **Key Features**
 
 *   **Responsive Design:** Adapts seamlessly to different screen sizes (desktops, tablets, and mobile devices).
